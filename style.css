@@ -1,0 +1,133 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.emp{
+    margin: 1%;
+    display: block;
+    padding: 0 10000000px;
+}
+
+.contactus{
+    background-color: rgb(224, 223, 221);
+    height: 750px;
+}
+
+.center{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.form{
+    max-width: 450px;
+    margin:30px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+}
+
+.form-contact{
+    width: 100%;
+    font-size: 16px;
+    border: 3px solid black;
+    border-radius: 8px;
+    /* height: 25px; */
+    margin: 20px 0px;
+    padding: 5px 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/* /* .submit{
+    border:2px solid  black;
+    border-radius: 10px;
+    color: black;
+} */
+
+.submit:hover{
+    background-color:black;
+    color: white;
+} */
+
+
+.ftext{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 16px;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.background-footer{
+    background: rgba(0, 0, 0, 0.7)url('../image/footer.jpg');
+    background-blend-mode: darken;
+    background-size: cover;
+    /* background: rgba(0, 0, 0, 0.7)url('../image/back.jpg'); */
+    background-color:#332;
+}
+
+.socialmedia{
+
+    margin: 0;
+    padding: 0;
+    background-color:grey ;
+
+}
+
+.social-links{
+    display: flex;
+}
+
+.social-links ul{
+    display: flex;
+    margin: auto;
+    max-width: 50%;
+    padding-top: 15px;
+}
+
+.social-items{
+    list-style: none;
+
+}
+
+.social-items a{
+    padding:10px 20px;
+    font-size: 40px;
+    color:white ;
+    margin: auto;
+    /* width: 300px;
+    height: 40px; */
+    transition: all .10s;
+}
+
+/* .social-items a:hover{
+    color: black;
+} */
+
+.fa-instagram:hover{
+    color: #e01a76;
+}
+
+.fa-facebook-messenger:hover{
+    /* color:#3b5998; */
+    color: #4267B2
+    ;
+}
+
+.fa-linkedin:hover{
+    color: #0e76a8 ;
+}
+
+.fa-github-square:hover{
+    color: #171515;
+}
+
+.fa-twitter:hover{
+    color: #1DA1F2;
+}
