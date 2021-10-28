@@ -25,7 +25,7 @@ body{
 
 .form{
     max-width: 450px;
-    margin:30px auto;
+    margin: 20px auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     
@@ -53,14 +53,21 @@ body{
     background-color:black;
     color: white;
 } */
-
+p {
+    margin-top: -4px;
+    margin-bottom: 0rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
 .ftext{
         align-items: center;
         justify-content: center;
         text-align: center;
         font-size: 16px;
-        color: white;
+        margin-bottom: 0px;
+        color: rgb(255, 255, 255);
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -106,6 +113,7 @@ body{
     transition: all .10s;
 }
 
+
 /* .social-items a:hover{
     color: black;
 } */
@@ -130,4 +138,78 @@ body{
 
 .fa-twitter:hover{
     color: #1DA1F2;
+}
+
+.contactus{
+    background-color: rgb(224, 223, 221);
+    height: 750px;
+}
+
+.center{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.form{
+    max-width: 450px;
+    margin:36px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+}
+
+.form-contact{
+    width: 100%;
+    font-size: 16px;
+    border: 3px solid black;
+    border-radius: 8px;
+    /* height: 25px; */
+    margin: 12px 0px;
+    padding: 5px 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.submit{
+    border:2px solid  black;
+    border-radius: 10px;
+    color: black;
+}
+
+.submit:hover{
+    background-color: black;
+    color: white;
+}
+
+@media only screen and (max-width:1130px){
+    .form{
+        max-width: 60%;
+    }
+
+    .social-links{
+        justify-content: center;
+        align-items: center;
+        /* max-width: 100px; */
+    }
+
+    .responce-media{
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .social-items a{
+        padding:1px 10px;
+        font-size: 35px;
+        color:white ;
+        margin: auto;
+        /* width: 300px;
+        height: 40px; */
+        transition: all .10s;
+    }
 }
